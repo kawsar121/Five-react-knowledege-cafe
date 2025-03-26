@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://example.com/images/cover1.jpg",
+      "title": "The Secrets of the Ocean",
+      "author": "John Doe",
+      "author_img": "https://example.com/images/johndoe.jpg",
+      "posted_date": "2025-03-25",
+      "reading_time": 5,
+      "hashtags": ["#ocean", "#nature", "#exploration"]
+    },
+    {
+      "id": 2,
+      "cover": "https://example.com/images/cover2.jpg",
+      "title": "AI in the 21st Century",
+      "author": "Jane Smith",
+      "author_img": "https://example.com/images/janesmith.jpg",
+      "posted_date": "2025-03-20",
+      "reading_time": 8,
+      "hashtags": ["#AI", "#technology", "#future"]
+    },
+    {
+      "id": 3,
+      "cover": "https://example.com/images/cover3.jpg",
+      "title": "Mastering Python for Beginners",
+      "author": "Alice Johnson",
+      "author_img": "https://example.com/images/alicejohnson.jpg",
+      "posted_date": "2025-03-18",
+      "reading_time": 12,
+      "hashtags": ["#python", "#programming", "#coding"]
+    },
+    {
+      "id": 4,
+      "cover": "https://example.com/images/cover4.jpg",
+      "title": "The Art of Mindfulness",
+      "author": "Michael Brown",
+      "author_img": "https://example.com/images/michaelbrown.jpg",
+      "posted_date": "2025-03-15",
+      "reading_time": 7,
+      "hashtags": ["#mindfulness", "#selfcare", "#meditation"]
+    },
+    {
+      "id": 5,
+      "cover": "https://example.com/images/cover5.jpg",
+      "title": "Space Exploration: Past, Present, Future",
+      "author": "Sarah Lee",
+      "author_img": "https://example.com/images/sarahlee.jpg",
+      "posted_date": "2025-03-10",
+      "reading_time": 10,
+      "hashtags": ["#space", "#science", "#NASA"]
+    }
+  ]
+  
