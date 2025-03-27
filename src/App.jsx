@@ -7,10 +7,16 @@ import Header from './Component/Header/Header'
 
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
+  const [read, setRead] = useState(0);
   const handleBookmarks = (collect)=>{
     // console.log(collect)
     const neMark = [...bookmarks, collect];
     setBookmarks(neMark)
+  }
+  const handleAsRead = (time)=>{
+    console.log("lol is pol", time);
+    const newTime = read+time;
+    setRead(newTime)
   }
 
   return (
@@ -18,8 +24,8 @@ function App() {
       
       <Header></Header>
       <div className='flex justify-center gap-[450px]'>
-      <Blogs receive={handleBookmarks}></Blogs>
-      <BookMarks markBooks={bookmarks}></BookMarks>
+      <Blogs receive={handleBookmarks} readReacive={handleAsRead}></Blogs>
+      <BookMarks markBooks={bookmarks} collectRead={read}></BookMarks>
       </div>
     </div>
   )
