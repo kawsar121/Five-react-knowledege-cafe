@@ -1,5 +1,8 @@
 
 import './App.css'
+import Blogs from './Component/Blogs/Blogs'
+import BookMarks from './Component/BookMarks/BookMarks'
+import Header from './Component/Header/Header'
 
 function App() {
   
@@ -7,8 +10,11 @@ function App() {
   return (
     <>
       
-      <h1>Knowledge Cafe</h1>
-      
+      <Header></Header>
+      <div className='flex justify-between'>
+      <Blogs></Blogs>
+      <BookMarks></BookMarks>
+      </div>
     </>
   )
 }

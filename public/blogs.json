@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "cover": "https://example.com/images/cover1.jpg",
+      "cover": "https://i.ibb.co.com/XfwNMVrh/images.jpg",
       "title": "The Secrets of the Ocean",
       "author": "John Doe",
       "author_img": "https://example.com/images/johndoe.jpg",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "cover": "https://example.com/images/cover2.jpg",
+      "cover": "https://i.ibb.co.com/XfwNMVrh/images.jpg",
       "title": "AI in the 21st Century",
       "author": "Jane Smith",
       "author_img": "https://example.com/images/janesmith.jpg",
@@ -21,7 +21,7 @@
     },
     {
       "id": 3,
-      "cover": "https://example.com/images/cover3.jpg",
+      "cover": "https://i.ibb.co.com/XfwNMVrh/images.jpg",
       "title": "Mastering Python for Beginners",
       "author": "Alice Johnson",
       "author_img": "https://example.com/images/alicejohnson.jpg",
@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "cover": "https://example.com/images/cover4.jpg",
+      "cover": "https://i.ibb.co.com/XfwNMVrh/images.jpg",
       "title": "The Art of Mindfulness",
       "author": "Michael Brown",
       "author_img": "https://example.com/images/michaelbrown.jpg",
@@ -41,7 +41,7 @@
     },
     {
       "id": 5,
-      "cover": "https://example.com/images/cover5.jpg",
+      "cover": "https://i.ibb.co.com/XfwNMVrh/images.jpg",
       "title": "Space Exploration: Past, Present, Future",
       "author": "Sarah Lee",
       "author_img": "https://example.com/images/sarahlee.jpg",
