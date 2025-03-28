@@ -10,6 +10,10 @@ function App() {
   const [read, setRead] = useState(0);
   const handleBookmarks = (collect)=>{
     // console.log(collect)
+    //eta likhar karon holo jate user bookmark akbarer beshi click korte na pare
+    if (bookmarks.some((bookmark) => bookmark.id === collect.id)) {
+      return;
+  }
     const neMark = [...bookmarks, collect];
     setBookmarks(neMark)
   }

@@ -6,7 +6,7 @@ const BookMarks = ({markBooks, collectRead}) => {
             <h1>Reading Time: {collectRead}</h1> <hr />
             <h1 className="text-3xl text-red-500">Book Marks : {markBooks.length}</h1>
             {
-                markBooks.map(msp => <BookMark lol={msp}></BookMark>)
+                markBooks.map(msp => <BookMark key={msp.id} lol={msp}></BookMark>)
             }
         </div>
     );
